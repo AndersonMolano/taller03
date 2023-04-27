@@ -1,4 +1,4 @@
-package co.edu.sena.project.Util;
+package co.edu.sena.project;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 
@@ -29,3 +29,4 @@ public class DBConenection {
         return getInstance().getConnection();
     }
     }
+
